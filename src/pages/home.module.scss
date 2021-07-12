@@ -1,0 +1,46 @@
+.contentContainer {
+  max-width: 1120px;
+  margin: 50px auto 0;
+  padding: 0 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero {
+  max-width: 600px;
+
+  > span {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    font-weight: 900;
+    margin-top: 2.5rem;
+
+    > span {
+      color: var(--cyan);
+    }
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin-top: 1.5rem;
+
+    span {
+      color: var(--cyan);
+      font-weight: bold;
+    }
+  }
+
+  button {
+    margin-top: 2.5rem;
+  }
+
+
+}
